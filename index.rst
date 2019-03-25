@@ -23,6 +23,7 @@ I can type stuff here like tables and lists.
 * Item
 
 What about a table in RST? It can be like so:
+
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
 +============+============+===========+
