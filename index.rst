@@ -10,6 +10,10 @@ Welcome to do-docs-as-code's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   how-to-create-a-project.rst
+   prerequisites.rst
+   reference-list.rst
+
 This is the basic content for the new site.
 
 I can type stuff here like tables and lists.
@@ -19,6 +23,7 @@ I can type stuff here like tables and lists.
 * Item
 
 What about a table in RST? It can be like so:
+
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
 +============+============+===========+
