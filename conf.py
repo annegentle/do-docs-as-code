@@ -12,21 +12,22 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('./test_py_module'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'do-docs-as-code'
-copyright = '2018, Anne Gentle'
-author = 'Anne Gentle'
+copyright = '2020, Anne Gentle'
+author = 'Anne Gentle, Sphinx Demo Data'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.0beta'
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,7 +39,14 @@ release = ''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# for Markdown, see http://www.sphinx-doc.org/en/master/usage/markdown.html
 extensions = [
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
