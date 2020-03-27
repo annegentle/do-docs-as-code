@@ -1,2 +1,3 @@
-recommonmark/
+_build/
+venv/
 .DS_Store
