@@ -13,10 +13,15 @@ Welcome to do-docs-as-code's documentation!
    how-to-create-a-project.rst
    prerequisites.rst
    reference-list.rst
+   api.rst
+   demo.rst
+   list.rst
+   long.rst
+   toc.rst
 
 This is the basic content for the new site.
 
-I can type stuff here like tables and lists.
+I can type more stuff here like tables and lists.
 
 * Item
 * Item
