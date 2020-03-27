@@ -1,4 +1,4 @@
-# Example for do-docs-as-code
+Example for do-docs-as-code
 
-Sphinx site example, using some RST files from https://github.com/mga-sphinx/sphinx_demo_data.
+Sphinx site example, using some RST files from https://github.com/mga-sphinx/sphinx_demo_data, that have been converted to Markdown with pandoc.
 
